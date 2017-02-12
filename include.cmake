@@ -13,4 +13,4 @@ else()
 	CGET_HAS_DEPENDENCY(Fontconfig GIT git://anongit.freedesktop.org/fontconfig VERSION 2.12.1 NO_FIND_PACKAGE BREW_PACKAGE Fontconfig)
 endif()
 
-CGET_HAS_DEPENDENCY(FreeType NUGET_PACKAGE FreeType GIT git://git.sv.nongnu.org/freetype/freetype2.git VERSION VER-2-7-1 NO_FIND_VERSION OPTIONS -DBUILD_SHARED_LIBS:BOOL=true)
+CGET_HAS_DEPENDENCY(Freetype NUGET_PACKAGE FreeType GIT git://git.sv.nongnu.org/freetype/freetype2.git VERSION VER-2-7-1 NO_FIND_VERSION OPTIONS -DBUILD_SHARED_LIBS:BOOL=true)
